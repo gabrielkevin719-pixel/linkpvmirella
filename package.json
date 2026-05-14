@@ -1,0 +1,11 @@
+{
+  "name": "linkpvmirella",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "serve linkprivbadmi.lovable.app -l 3000",
+    "start": "serve linkprivbadmi.lovable.app -l 3000"
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+}
