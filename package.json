@@ -2,10 +2,18 @@
   "name": "linkpvmirella",
   "version": "1.0.0",
   "scripts": {
-    "dev": "serve linkprivbadmi.lovable.app -l 3000",
-    "start": "serve linkprivbadmi.lovable.app -l 3000"
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
-    "serve": "^14.2.1"
+    "next": "^15.3.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.17.6",
+    "@types/react": "19.2.14",
+    "typescript": "5.8.2"
   }
 }
