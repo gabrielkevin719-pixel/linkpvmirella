@@ -1,0 +1,17 @@
+h2[data-v-1d7e9968] {
+    font-weight: 600;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    color: var(--primary-color);
+    background-image: linear-gradient(180deg, #fc01d2 18%, #ff0113);
+    -webkit-background-clip: text;
+    color: transparent !important
+}
+
+h2 img[data-v-1d7e9968] {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    object-position: center center
+}

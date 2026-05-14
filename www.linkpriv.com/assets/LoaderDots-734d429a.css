@@ -1,0 +1,45 @@
+.loader[data-v-0f67634d],
+.loader[data-v-0f67634d]:before,
+.loader[data-v-0f67634d]:after {
+    border-radius: 50%;
+    width: 2.5em;
+    height: 2.5em;
+    animation-fill-mode: both;
+    animation: bblFadInOut-0f67634d 1.8s infinite ease-in-out
+}
+
+.loader[data-v-0f67634d] {
+    color: #fff;
+    font-size: 7px;
+    position: relative;
+    text-indent: -9999em;
+    transform: translateZ(0);
+    animation-delay: -.16s
+}
+
+.loader[data-v-0f67634d]:before,
+.loader[data-v-0f67634d]:after {
+    content: "";
+    position: absolute;
+    top: 0
+}
+
+.loader[data-v-0f67634d]:before {
+    left: -3.5em;
+    animation-delay: -.32s
+}
+
+.loader[data-v-0f67634d]:after {
+    left: 3.5em
+}
+
+@keyframes bblFadInOut-0f67634d {
+    0%,
+    80%,
+    to {
+        box-shadow: 0 2.5em 0 -1.3em
+    }
+    40% {
+        box-shadow: 0 2.5em
+    }
+}

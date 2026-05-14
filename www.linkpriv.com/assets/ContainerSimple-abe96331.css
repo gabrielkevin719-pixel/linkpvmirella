@@ -1,0 +1,14 @@
+.containerSimple[data-v-33a8fd3e] {
+    width: 100%;
+    border-radius: var(--border-radius-medium);
+    padding: 22px 32px;
+    background-color: var(--white)
+}
+
+@media screen and (max-width: 1000px) {
+    .containerSimple[data-v-33a8fd3e] {
+        width: calc(100% - 1rem);
+        margin: auto;
+        padding: 20px 10px
+    }
+}
