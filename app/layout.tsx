@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import "./globals.css"
 
 export const metadata: Metadata = {
   title: "linkpriv",
@@ -25,7 +26,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body>{children}</body>
+      <body className="bg-black min-h-screen">{children}</body>
     </html>
   )
 }
