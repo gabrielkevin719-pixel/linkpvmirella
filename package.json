@@ -2,14 +2,13 @@
   "name": "linkpvmirella",
   "version": "1.0.0",
   "private": true,
-  "type": "module",
   "description": "Projeto LinkPV Mirella",
   "scripts": {
-    "dev": "vite --port 3000",
-    "build": "echo 'Nenhum build necessário'",
-    "start": "vite preview --port 3000"
+    "dev": "serve . -l 3000 -s",
+    "build": "echo 'Nenhum build necessario'",
+    "start": "serve . -l 3000 -s"
   },
   "devDependencies": {
-    "vite": "^8.0.13"
+    "serve": "^14.2.6"
   }
 }
