@@ -1,0 +1,11 @@
+{
+  "name": "linkpvmirella",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Projeto LinkPV Mirella",
+  "scripts": {
+    "dev": "echo 'Projeto de arquivos estáticos'",
+    "build": "echo 'Nenhum build necessário'",
+    "start": "echo 'Projeto de arquivos estáticos'"
+  }
+}
